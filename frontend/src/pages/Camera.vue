@@ -26,7 +26,7 @@ export default {
           this.$q.notify('Could not access device camera.')
         },
         {
-          quality: 50,
+          quality: 70,
           destinationType: navigator.camera.DestinationType.DATA_URL,
           encodingType: navigator.camera.EncodingType.JPEG,
           MEDIATYPE: navigator.camera.MediaType.PICTURE,
