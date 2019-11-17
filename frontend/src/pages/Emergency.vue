@@ -4,8 +4,8 @@
       <q-item clickable v-ripple>
         <q-item-selection avatar top>
           <q-icon color="primary" name="call"/>
+          <q-item-section>911</q-item-section>
         </q-item-selection>
-        <q-item-section>911</q-item-section>
     </q-item>
 
     <q-item clickable v-ripple>
@@ -49,5 +49,4 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-
 </style>
