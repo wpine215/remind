@@ -13,7 +13,7 @@
         />
 
         <q-toolbar-title>
-          remind
+          re-mind
         </q-toolbar-title>
 
       </q-toolbar>

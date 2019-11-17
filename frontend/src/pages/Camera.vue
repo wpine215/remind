@@ -1,10 +1,9 @@
 <template>
   <q-page>
-
-    <q-btn color="primary" label="Get Picture" @click="captureImage" />
-
+    <div class="fixed-center">
+    <q-btn color="primary" label="Take Photo" @click="captureImage" size="xl" />
     <img :src="imageSrc">
-
+    </div>
   </q-page>
 </template>
 
@@ -33,8 +32,8 @@ export default {
           sourceType: navigator.camera.PictureSourceType.CAMERA,
           mediaType: navigator.camera.MediaType.PICTURE,
           cameraDirection: navigator.camera.Direction.BACK,
-          targetWidth: 300,
-          targetHeight: 400
+          targetWidth: 480,
+          targetHeight: 987
         }
       )
     }

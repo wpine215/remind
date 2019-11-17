@@ -171,16 +171,16 @@ export default {
   },
   methods: {
     lyftBeach () {
-      window.location = 'https://lyft.com/ride?id=lyft&pickup[latitude]=37.764728&pickup[longitude]=-122.422999&partner=VR-XG3DAHBBJ&destination[latitude]=37.7763592&destination[longitude]=-122.4242038'
+      window.location = 'https://lyft.com/ride?id=lyft&pickup[latitude]=42.3509&pickup[longitude]=-71.1090&partner=VR-XG3DAHBBJ&destination[latitude]=42.3511927&destination[longitude]=-71.1082715'
     },
     lyftHome () {
-      window.location = 'https://lyft.com/ride?id=lyft&pickup[latitude]=37.764728&pickup[longitude]=-122.422999&partner=VR-XG3DAHBBJ&destination[latitude]=37.7763592&destination[longitude]=-122.4242038'
+      window.location = 'https://lyft.com/ride?id=lyft&pickup[latitude]=42.3509&pickup[longitude]=-71.1090&partner=VR-XG3DAHBBJ&destination[latitude]=42.3495&destination[longitude]=-71.1048'
     },
     lyftHospital () {
-      window.location = 'https://lyft.com/ride?id=lyft&pickup[latitude]=37.764728&pickup[longitude]=-122.422999&partner=VR-XG3DAHBBJ&destination[latitude]=37.7763592&destination[longitude]=-122.4242038'
+      window.location = 'https://lyft.com/ride?id=lyft&pickup[latitude]=42.3509&pickup[longitude]=-71.1090&partner=VR-XG3DAHBBJ&destination[latitude]=42.3469897&destination[longitude]=-71.1077225'
     },
     lyftSupermarket () {
-      window.location = 'https://lyft.com/ride?id=lyft&pickup[latitude]=37.764728&pickup[longitude]=-122.422999&partner=VR-XG3DAHBBJ&destination[latitude]=37.7763592&destination[longitude]=-122.4242038'
+      window.location = 'https://lyft.com/ride?id=lyft&pickup[latitude]=42.3509&pickup[longitude]=-71.1090&partner=VR-XG3DAHBBJ&destination[latitude]=42.3461922&destination[longitude]=-71.1082715'
     },
     callNineOneOne () {
       window.location = 'tel:911'

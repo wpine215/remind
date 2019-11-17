@@ -1,42 +1,38 @@
-
-
-
-
-
 <template>
-  <div class="q-pa-md">
-    <div class="q-gutter-sm">
-    <!-- Code for Events/Tasks -->
-      <div class="q-pa-lg">
-        <q-option-group
-          v-model="group"
-          :options="options"
-          color="green"
-          type="checkbox"
-          />
-      </div>
-    </div>
-  </div>
+  <div class="q-pa-md q-gutter-md items-center" style="max-width: 110vw">
 
+    <q-list v-for="(item,index) in rem_list" :key="index" class="bg-grey-3" bordered separator>
+      <q-item clickable v-ripple :active="active">
+        <q-item-section side>{{ item.time }}</q-item-section>
+        <q-item-section>{{ item.task }}</q-item-section>
+        <q-item-section avatar>
+          <q-icon name="delete" color="red" />
+        </q-item-section>
+      </q-item>
+    </q-list>
+
+    <q-page-sticky position="bottom-right" :offset="[18, 18]">
+      <q-btn fab icon="add" color="primary" />
+    </q-page-sticky>
+  </div>
 </template>
 
 <script>
 export default {
   data () {
     return {
-      group: ['Tasks'],
-      options: [
+      rem_list: [
         {
-          label: 'Task 1',
-          value: 'op1'
+          task: 'Exercise',
+          time: '16:00'
         },
         {
-          label: 'Task 2',
-          value: 'op2'
+          task: 'Dinner',
+          time: '18:00'
         },
         {
-          label: 'Task 3',
-          value: 'op3'
+          task: 'Take Medication',
+          time: '20:30'
         }
       ]
     }
@@ -45,9 +41,4 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-.custom-caption
-  text-align: center
-  padding: 12px
-  color: white
-  background-color: rgba(0, 0, 0, .3)
 </style>
