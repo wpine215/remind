@@ -20,7 +20,9 @@
 
       <q-toolbar class="col-4 bg-red text-white">
         <q-tabs v-model="tab" align="center">
-          <q-tab name="tab1" label="Emergency!" />
+          <q-tab name="tab1" label="Emergency!"
+          @click="goEmergency()"
+          />
         </q-tabs>
       </q-toolbar>
     </div>
@@ -51,6 +53,9 @@ export default {
   methods: {
     goBack () {
       this.$router.push('/')
+    },
+    goEmergency () {
+      this.$router.push('/emergency')
     }
   }
 }
