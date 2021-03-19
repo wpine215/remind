@@ -3,7 +3,7 @@ Click==7.0
 Django==2.2.7
 django-phonenumber-field==3.0.1
 django-rest-framework==0.1.0
-djangorestframework==3.10.3
+djangorestframework==3.11.2
 dlib==19.18.0
 face-recognition==1.2.3
 face-recognition-models==0.3.0
